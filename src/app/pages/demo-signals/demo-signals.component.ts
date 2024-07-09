@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {CounterComponent} from "./components/counter/counter.component";
 import {ImcCalculatorComponent} from "./components/imc-calculator/imc-calculator.component";
 import {TodoListComponent} from "./components/todo-list/todo-list.component";
+import {UntrackedExampleComponent} from "./components/untracked-example/untracked-example.component";
 
 @Component({
   selector: 'app-demo-signals',
@@ -9,7 +10,8 @@ import {TodoListComponent} from "./components/todo-list/todo-list.component";
   imports: [
     CounterComponent,
     ImcCalculatorComponent,
-    TodoListComponent
+    TodoListComponent,
+    UntrackedExampleComponent
   ],
   templateUrl: './demo-signals.component.html'
 })
