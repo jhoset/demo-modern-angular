@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 .custom-radio {
-  @apply accent-deep-purple w-5 h-5 mx-1
+  @apply relative accent-deep-purple w-5 h-5 mx-1
   focus:after:absolute focus:after:content-['']
   focus:after:outline-2 focus:after:outline focus:after:rounded-full
   focus:after:outline-vivid-purple focus:after:opacity-20
