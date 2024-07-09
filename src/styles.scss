@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+.custom-radio {
+  @apply accent-deep-purple w-5 h-5 mx-1
+  focus:after:absolute focus:after:content-['']
+  focus:after:outline-2 focus:after:outline focus:after:rounded-full
+  focus:after:outline-vivid-purple focus:after:opacity-20
+  focus:after:outline-offset-1 focus:after:bg-none
+  focus:after:w-5 focus:after:h-5;
+}
+
+.custom-checkbox {
+  @apply accent-deep-purple w-5 h-5 mx-1 focus:ring-offset-1 focus:ring-opacity-20 focus:ring-2 focus:ring-vivid-purple;
+}
+
+.custom-input {
+  @apply flex w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50
+  h-[34px] focus:ring-1 focus:ring-soft-gray outline-none placeholder-gray-400;
+}
+
+.custom-button {
+  @apply text-white transition-colors ease-in focus:outline-none focus:ring-2 font-medium rounded-lg text-sm px-4 h-[34px] py-1.5 mx-1
+  bg-zinc-900 hover:bg-dark-charcoal focus:ring-light-pink border-gray-700;
+}
+
+.custom-divider {
+  @apply h-[1px] my-3 border-0 bg-soft-gray;
+}
+
+.custom-shape-divider {
+  @apply w-4 h-4 mx-auto my-6 bg-light-gray border-0 rounded;
+}
+
+.custom-h1 {
+  @apply text-2xl font-bold text-bright-magenta;
+}
+
+.custom-h2 {
+  @apply text-lg font-semibold text-vivid-purple mt-4;
+}
+
+.custom-h3 {
+  @apply text-sm text-center text-soft-gray font-bold uppercase mt-2;
+}
+
+.custom-example-container {
+  @apply p-2 rounded-lg border-soft-gray border-opacity-80 border-[1px] border-dashed;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter Tight", sans-serif;
+
+  margin: 0;
+  box-sizing: border-box;
+
+  label {
+    white-space: nowrap;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F6F5F6;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #98969B;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+}
+
+
