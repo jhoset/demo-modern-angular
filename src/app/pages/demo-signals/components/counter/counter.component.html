@@ -1,0 +1,9 @@
+<div class="flex flex-col gap-2">
+  <p class="text-center"> Counter: {{ counter() }} </p>
+
+  <div class="flex w-full justify-center">
+    <button (click)="onIncrement()" class="custom-button">Increment</button>
+    <button (click)="onDecrement()" class="custom-button">Decrement</button>
+    <button (click)="onReset()" class="custom-button">Reset</button>
+  </div>
+</div>
