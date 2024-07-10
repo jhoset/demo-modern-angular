@@ -1,6 +1,8 @@
 # ModernAngularDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+![imagen](https://github.com/jhoset/demo-modern-angular/assets/29497145/a68cb7b4-f8b1-42c3-b05c-cba587350763)
+
 
 ## Development server
 
